@@ -16,6 +16,7 @@ const Bookslots=() => {
       } catch (error){
         console.log('Error occured:',({ message: error.message }));
       }
+        alert('Booked the slot successfully');
     };
   
 
